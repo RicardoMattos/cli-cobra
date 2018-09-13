@@ -1,4 +1,5 @@
-# Go Cli application to get Cryptocoin values
+# Go Cli application
+Simple application to get the actual value of any cryptocoin.
 
 ### usage:
 ```
@@ -11,4 +12,6 @@ Flags:
   -n, --name string   Actual value of <coin_name> crypto coin
 ```
 
-### info from: https://api.coinmarketcap.com/v1/ticker/
+lib: [Cobra](https://github.com/spf13/cobra)
+
+source: https://api.coinmarketcap.com/v1/ticker/
